@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.backend.boilerplate.autoconfigure.ErrorMessageSourceAutoConfiguration,\
+com.backend.boilerplate.autoconfigure.FlywayCleanerAutoConfiguration,\
+com.backend.boilerplate.autoconfigure.LocaleAutoConfiguration,\
+com.backend.boilerplate.autoconfigure.ModelMapperAutoConfiguration,\
+com.backend.boilerplate.autoconfigure.ValidatorAutoConfiguration
