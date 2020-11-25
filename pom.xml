@@ -22,9 +22,17 @@
         <spring-cloud.version>Hoxton.SR3</spring-cloud.version>
         <modelmapper.version>2.3.7</modelmapper.version>
         <flyway.version>6.0.8</flyway.version>
+
+        <common-util.version>0.0.3</common-util.version>
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>com.sp.common.util</groupId>
+            <artifactId>common-util</artifactId>
+            <version>${common-util.version}</version>
+            <scope>compile</scope>
+        </dependency>
         <!-- excluding default logging framework in spring to support log4j2 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
